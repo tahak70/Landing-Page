@@ -15,24 +15,51 @@
             height: 100px;
         }
         .logo {
-            margin-right: 250px;
+            margin-right: 225px;
             font-size: 24px;
             color: #F9FAF8;
-            margin-inline-start: 50px;
+            margin-inline-start: 75px;
         }
         .main {
+            display: flex;
             color: #F9FAF8;
             background-color: #1F2937;
-            height: 100px;
+            height: 300px;
         }
         .title {
             font-size: 48px;
             font-weight: bold;
-            margin-inline-start: 50px;
+            margin-inline-start: 75px;
+            flex-wrap: wrap;
+            width: 300px;
         }
-        .img {
-            color: gray;
-        
+        .image {
+            color: white;
+            padding: 50px;
+            margin-inline-start: 150px;
+            background-color: gray;
+            height: 100px;
+            width: 200px;
+            text-align: center;
+        }
+        .secTex {
+           color: #E5E7EB;
+           font-size: 18px;
+           flex-wrap: wrap;
+        }
+        .signup {
+            color: white;
+            background-color: #3882F6;
+            border-radius: 5px;
+            height: 35px;
+            width: 100px;
+            font-weight: bold;
+        }
+        .rantit {
+            size: 72px;
+            font-weight: bold;
+            color: #1F2937;
+            text-align: center;
         }
     </style>
 </head>
@@ -54,13 +81,20 @@
     <div class="main">
         <div class="title">
             This website is awesome
+            <p class="secTex">
+                This website has some subtext that goes here under the main title.
+                Its a smaller font and the color is lower contrast.
+            </p>
+            <button class="signup">
+                Sign up
+            </button>
         </div>
-        <div>
-
+        <div class="image">
+            Placeholder for an image
         </div>
-        <div class="img">
-            Image Placeholder
-        </div>
+    </div>
+    <div class="rantit">
+        Some random information
     </div>
 </body>
 </html>
